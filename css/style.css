@@ -1,0 +1,45 @@
+/* CSS for annoying pics API in-class */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    content: "";
+    clear: both;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1024px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    min-height: 80vh;
+    max-height: 80vh;
+}
+
+img {
+    min-width: 500px;
+    max-width: 600px;
+    display: block;
+    max-height: 75vh;
+    
+}
+
+#btn {
+    width: 200px;
+    height: 60px;
+    background: indianred;
+    border: none;
+    border-radius: 50px;
+    display: block;
+    margin: 5rem auto;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
