@@ -1,15 +1,27 @@
-/* CSS for annoying pics API in-class */
-
+/** style.css
+    Author:             Jack
+    Date:               2025-11-12
+    Last revised:       2026-04-15
+    Description:        CSS for annoyingpix in-class exercise
+*/
 * {
     box-sizing: border-box;
 }
-
 body {
     content: "";
     clear: both;
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
+}
+header>h1 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    background: black;
+    color: white;
 }
 div {
     display: flex;
@@ -18,19 +30,17 @@ div {
     width: 1024px;
     margin: 3rem auto;
     padding: 2rem;
-    border: 1px solid #ddd;
-    min-height: 80vh;
-    max-height: 80vh;
+    min-height: 75vh;
+    max-height: 75vh;
 }
-
 img {
     min-width: 500px;
     max-width: 600px;
     display: block;
     max-height: 75vh;
-    
+    margin-top: 3.5rem;
+    box-shadow: 8px 8px 8px #ddd;
 }
-
 #btn {
     width: 200px;
     height: 60px;
@@ -38,7 +48,7 @@ img {
     border: none;
     border-radius: 50px;
     display: block;
-    margin: 5rem auto;
+    margin: 2rem auto;
     font-size: 2rem;
     color: white;
     cursor: pointer;
